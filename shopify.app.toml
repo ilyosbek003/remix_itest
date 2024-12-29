@@ -3,22 +3,23 @@
 client_id = "3a5bcddeeb0b36d12f2da14852ae1376"
 name = "ITestApp"
 handle = "itestapp"
-application_url = "https://img-theatre-preservation-tender.trycloudflare.com"
+application_url = "https://hk-interface-swing-regime.trycloudflare.com"
 embedded = true
 
 [build]
 automatically_update_urls_on_dev = true
 dev_store_url = "private-dev-ilyosbek.myshopify.com"
+include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = ""
+scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://img-theatre-preservation-tender.trycloudflare.com/auth/callback",
-  "https://img-theatre-preservation-tender.trycloudflare.com/auth/shopify/callback",
-  "https://img-theatre-preservation-tender.trycloudflare.com/api/auth/callback"
+  "https://hk-interface-swing-regime.trycloudflare.com/auth/callback",
+  "https://hk-interface-swing-regime.trycloudflare.com/auth/shopify/callback",
+  "https://hk-interface-swing-regime.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
